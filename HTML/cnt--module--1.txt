@@ -1,0 +1,12 @@
+
+Module-1
+09
+
+Introduction to transport layer services, Fundamental concepts of TCP, including its role in the TCP/IP model, reliable data transfer, flow control, congestion control, and error detection. TCP Handshake. TCP Header, TCP Flow Control, TCP Retransmission, TCP vs UDP, UDP Header, UDP broadcasting, UDP based protocols  
+
+
+1.Define a network.
+2.Explain OSI model all layers.
+(A)MENTION THE DEVICES OR MEDIA OF COMMUNICA
+Application Layer
+(A)

@@ -1,0 +1,35 @@
+4th layer ....
+introduction to transport layer---
+main role:to provide the comminucation services to the application layers running on different host
+provides logical communication to send messages btw hosts
+PROTOCOLS---TCP ND UDP--are implemented in d end systems not in ntwrk routers both tcp nd udp communicate with ip[internet protocol] in the ntwrk layer
+
+
+services provided by transport layer:The services provided by the transport layer protocols can be divided into five categories:
+
+End-to-end delivery
+Addressing
+Reliable delivery
+Flow control
+Multiplexing
+
+End-to-end delivery:The transport layer transmits the entire message to the destination. Therefore, it ensures the end-to-end delivery of an entire message from a source to the destination.
+Reliable delivery:
+The transport layer provides reliability services by retransmitting the lost and damaged packets.
+The reliable delivery has four aspects:
+
+Error control,Sequence control,Loss control,Duplication control
+
+The primary role of reliability is Error Control. In reality, no transmission will be 100 percent error-free delivery. Therefore, transport layer protocols are designed to provide error-free transmission.
+
+The second aspect of the reliability is sequence control which is implemented at the transport layer.
+On the sending end, the transport layer is responsible for ensuring that the packets received from the upper layers can be used by the lower layers. On the receiving end, it ensures that the various segments of a transmission can be correctly reassembled.
+
+Loss Control:Loss Control is a third aspect of reliability. The transport layer ensures that all the fragments of a transmission arrive at the destination, not some of them. On the sending end, all the fragments of transmission are given sequence numbers by a transport layer. These sequence numbers allow the receiver?s transport layer to identify the missing segment.
+
+Duplication control:Duplication Control is the fourth aspect of reliability. The transport layer guarantees that no duplicate data arrive at the destination. Sequence numbers are used to identify the lost packets; similarly, it allows the receiver to identify and discard duplicate segments.
+
+
+
+
+
